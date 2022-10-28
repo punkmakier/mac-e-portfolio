@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url("../assets/Backgrounds/mainbg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  padding: 0 40px;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+.main-content img {
+  max-width: 30rem;
+}
+.main-content-text {
+  text-align: center;
+  margin-top: -120px;
+}
+.nav-link {
+  color: #b6b6b6 !important;
+  margin-left: 30px;
+  font-family: "League Spartan", sans-serif;
+}
+.nav-link:hover {
+  color: #fff !important;
+  text-shadow: 0 0 5px rgb(133, 255, 153);
+}
+.main-content-text h1 {
+  font-size: 6rem;
+  background: #a7cb83;
+  background: linear-gradient(to right, #a7cb83 22%, #cd8a67 65%, #f59671 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 70px #000;
+  font-family: "Noto Serif", serif;
+}
+.main-content-text p {
+  color: rgba(202, 202, 202, 0.832);
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.1rem;
+}
+.download {
+  text-decoration: none;
+  border: 1px solid #f0f0f0;
+  padding: 8px 30px;
+  border-radius: 25px;
+  color: #fff;
+}
+.download:hover {
+  transition: 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.178);
+  color: rgba(255, 255, 255, 0.733);
+}
+.social-media {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.social-media a {
+  display: block;
+  margin: 50px;
+}
+.social-media a i {
+  font-size: 1.8rem;
+  color: #f0f0f052;
+}
+.social-media a i:hover {
+  transition: 0.3s ease-in-out;
+  color: #fff;
+}
+.middle {
+  z-index: 999;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-right: 20px;
+  transform: translate(-50%, -50%);
+}
+.mouse {
+  margin-left: 0;
+  width: 20px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.555);
+  border-radius: 60px;
+  margin-bottom: 10px;
+}
+.mouse::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 10px;
+  background: rgba(255, 255, 255, 0.555);
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  opacity: 1;
+  animation: mouse 2s infinite;
+}
+
+@keyframes mouse {
+  from {
+    opacity: 1;
+    top: 10px;
+  }
+  to {
+    opacity: 0;
+    top: 30px;
+  }
+}
+.middle span {
+  font-family: "Play", sans-serif;
+  color: rgba(255, 255, 255, 0.555);
+  font-size: 13px;
+}
+
+#aboutme {
+  background-image: url("../assets/Backgrounds/aboutbg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutme img {
+  margin-left: 50px;
+}
+#aboutme h1 {
+  font-weight: 900;
+  background: #a7cb83;
+  background: linear-gradient(to right, #a7cb83 10%, #cd8a67 65%, #f59671 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 80px #000;
+  font-size: 2.1rem;
+  font-family: "Patua One", cursive;
+  margin-bottom: 20px;
+}
+#aboutme h2 {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.345);
+  font-family: "Volkhov", serif;
+}
+#aboutme p {
+  width: 550px;
+  font-size: 1.1rem;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+.about-me-content .viewHobbies img {
+  width: 80px;
+  position: absolute;
+  margin-top: 33px;
+  animation: toright 1s infinite alternate-reverse;
+}
+@keyframes toright {
+  from {
+    margin-left: 5px;
+  }
+  to {
+    margin-left: 15px;
+  }
+}
+.about-me-content .viewHobbies button {
+  background-color: #db7f5b;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  height: 80px;
+  width: 80px;
+  font-size: 14px;
+  margin-left: 100px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.2s;
+  color: #fff;
+}
+.about-me-content .viewHobbies button:hover {
+  background-color: #f5967193;
+  transition: 0.3s ease-in-out;
+}
+@media all and (min-width: 100px) and (max-width: 992px) {
+  .main-content img {
+    max-width: 23rem;
+  }
+
+  .navbar {
+    padding: 0 10px;
+  }
+  .collapse {
+    background-color: #13160f88;
+    padding-bottom: 40px;
+    padding-left: 20px;
+  }
+
+  .nav-link {
+    margin-left: 0;
+  }
+  li:last-child {
+    margin-bottom: 20px;
+  }
+  .main-content-text h1 {
+    font-size: 3rem;
+  }
+  .main-content-text p {
+    font-size: 0.9rem;
+  }
+  .social-media {
+    left: 5%;
+  }
+  .social-media a i {
+    font-size: 1.3rem;
+  }
+  .middle {
+    top: 95%;
+    right: 45%;
+    margin: 0;
+    position: absolute;
+  }
+  #aboutme {
+    display: block;
+    height: auto;
+    background-size: cover;
+    padding-bottom: 30px;
+  }
+  #aboutme img {
+    width: 18rem;
+  }
+  .about-me-content {
+    text-align: center;
+    padding: 0 15px;
+  }
+  #aboutme p {
+    width: auto;
+  }
+  .about-me-content .viewHobbies img {
+    display: none;
+  }
+  .about-me-content .viewHobbies button {
+    margin-left: 0;
+  }
+}
