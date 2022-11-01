@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MAC E-Portfolio</title>
+   <!-- Icons -->
+   <link rel="stylesheet" href="css/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome/brands.min.css" />
+    <link rel="stylesheet" href="css/fontawesome/fontawesome.min.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/fonts.css" />
+
+    <link rel="stylesheet" href="css/custom_style.css?v=3" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Jquery -->
+    <script src="js/jquery.v3.6.1.js"></script>
+    <!-- Sweet Alert -->
+    <script src="js/sweetalert2.all.min.js"></script>
+    <!-- Data Table -->
+    <link rel="stylesheet" href="css/dataTables.min.css"/>
+    <script src="js/dataTables.js"></script>
+
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400&family=Noto+Serif:ital,wght@1,700&family=Patua+One&family=Volkhov:ital@1&display=swap" rel="stylesheet">
+</head>
+  <body>
+    
+  <div class="middle">
+    <span></span>
+    <div class="mouse"></div>
+  </div>
+    <!-- Nav -->
+
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="assets/Others/mylogo.png" width="150" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars-staggered" style='color: #f0f0f0;'></i>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#aboutme">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#certificates">E-Certificates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#experience">Work Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <a class="float-end-sm m-0 download" href="assets/Mark_Allan_Carba_CV.pdf" download=""><i class="fa-solid fa-download"></i>&nbsp;Download CV</a>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<script>
+  var lastScrollTop = 0;
+  window.addEventListener("scroll", function(){
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if(scrollTop > lastScrollTop){
+      $(".navbar").css("margin-top", "-80px");
+      $(".navbar").css("transition", "0.3s ease-in-out");
+    }else{
+      $(".navbar").css("margin-top", "0");
+
+
+    }
+    lastScrollTop = scrollTop;
+  })
+</script>
+
+
+<header>
+    <div class="main-content">
+        <img src="assets/Others/myself.png" alt="">
+    </div>
+    <div class="main-content-text">
+        <h1>Mark Allan Carba</h1>
+        <p>Web Developer // Graphic Designer // Game Developer</p>
+    </div>
+
+    <div class="social-media">
+        <a href="https://web.facebook.com/Makier2011" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://m.me/Makier2011" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a>
+        <a href="https://www.youtube.com/channel/UCLkF8IyguIKBWzNzJqGH_RA/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+</header>
+
+    <!-- About Me -->
+    <section id="aboutme">
+
+
+      <div class="about-me-content">
+          <img src="assets/Others/makier.png" alt="">
+      </div>
+      <div class="about-me-content">
+              <h2>ABOUT ME</h2>
+              <h1>This above all<br>to thine own self be true.</h1>
+  
+              <p>Hey! My name is Mark Allan Carba, I received a Bachelor of Science in Information Technology degree from STI West Negros University, along with awards for Best Programmer 2022, Best Poster Design 2022, and Best Capstone Project 2022. I have more than two years of experience working in corporate environments using PHP and Unity for game and website development. I have the ability to handle a variety of duties, including front-end design and back-end development. A track record of successfully completing the tasks assigned to web and game developers.
+  <br><br>
+  Aside from being hard-working in system development, I also have hobbies.
+  <br><br>
+  Click the button to find out :)</p>
+  
+  <div class="viewHobbies">
+      <img src="assets/Others/rightarrow.png" alt="">
+      <button id="popHobbies">View<br>Hobbies</button>
+  </div>
+          </div>
+  </section>
+  
+  <script>
+      $("#popHobbies").on('click', function(){
+          window.location.href="https://web.facebook.com/Makier2011/videos"
+      })
+  </script>
+
+    <!-- Skills -->
+    <section id="skills">
+
+      <div class="inner-skills">
+          <h2>SKILLS</h2>
+          <h1>
+          With hard work and effort,<br>
+          you can achieve anything.
+          </h1>
+      
+          <div class="container mt-5 pt-5">
+              <div class="row d-flex-sm justify-content-center">
+                  <div class="col">
+                      <div class="cards-skills">
+                          <h3>Web Development</h3>
+                          <ul>
+                              <li><i class="fa-solid fa-circle-check"></i> PHP</li>
+                              <li><i class="fa-solid fa-circle-check"></i> MySQL </li>
+                              <li><i class="fa-solid fa-circle-check"></i> HTML/CSS/JavaScript </li>
+                              <li><i class="fa-solid fa-circle-check"></i> PHPMailer/QR Code Library</li>
+                              <li><i class="fa-solid fa-circle-check"></i> Bootstrap </li>
+                              <li><i class="fa-solid fa-circle-check"></i> Sweet Alert</li>
+                              <li><i class="fa-solid fa-circle-check"></i> JQuery </li>
+                              <li><i class="fa-solid fa-circle-check"></i> Ajax </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="cards-skills">
+                          <h3>Graphic Design</h3>
+                          <ul>
+                              <li><i class="fa-solid fa-circle-check"></i> Photoshop</li>
+                              <li><i class="fa-solid fa-circle-check"></i> Adobe Xd </li>
+                              <li><i class="fa-solid fa-circle-check"></i> Figma </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="cards-skills">
+                          <h3>Game Development</h3>
+                          <ul>
+                              <li><i class="fa-solid fa-circle-check"></i> Unity Engine</li>
+                              <li><i class="fa-solid fa-circle-check"></i> Game Planning </li>
+                              <li><i class="fa-solid fa-circle-check"></i> HTML </li>
+                              <li><i class="fa-solid fa-circle-check"></i> C# Script </li>
+                              <li><i class="fa-solid fa-circle-check"></i> Level Design</li>
+                              <li><i class="fa-solid fa-circle-check"></i> Animation </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      
+      
+      </section>
+
+    <!-- lets work -->
+    <section id="hireme">
+      <div class="inner-hireme">
+          <h2>Let's Work Together</h2>
+          <p>I’m available for freelance projects. Hire me and get your project done.</p>
+          <br>
+          <a href="#contact">HIRE ME</a>
+      </div>
+  </section>
+
+    <!-- lets work -->
+    <section id="project">
+      <div class="inner-project">
+          <h2>PROJECTS</h2>
+          <h1>Every time you do a project,<br>
+              you learn something new.
+          </h1>
+      </div>
+  
+      <div class="custom-container d-flex justify-content-center">
+          <div class="outer-project-card">
+              <div class="proj-card softy">
+                  <div class="proj-content">
+                      <h4>E-commerce website </h4>
+                      <p>Simple E-commerce project using PHP, HTML, CSS, JavaScript and MySQL</p>
+                      <a href="">View Project</a>
+                  </div>
+              </div>
+              <div class="proj-card hilo">
+                  
+                  <div class="proj-content">
+                      <h4>HI-LO Game </h4>
+                      <p>An interesting game were you can deposit, cash out, view summary and Play High Low game.You just have to predict either HIGH or LOW before the number is rolled</p>
+                      <a href="">View Project</a>
+                  </div>
+              </div>
+              <div class="proj-card ai">
+                  
+                  <div class="proj-content ">
+                      <h4>AI Assistant</h4>
+                      <p>SUSANA is an artificial intelligence assistant using python with Google Cloud API</p>
+                      <a href="">View Project</a>
+                  </div>
+              </div>
+              <div class="proj-card overcome">
+                  
+                  <div class="proj-content ">
+                      <h4>2D Game Development</h4>
+                      <p>It's my first ever game project I made in 2 months entitled "Overcome". Adventure and Story telling game</p>
+                      <a href="">View Project</a>
+                  </div>
+              </div><br>
+              <div class="proj-card alcohol">
+                  
+                  <div class="proj-content ">
+                      <h4>Automatic Alcohol Dispenser</h4>
+                      <p>I made this during pandemic for disinfecting to avoid COVID Contact</p>
+                      <a href="">View Project</a>
+                  </div>
+              </div>
+              <div class="proj-card teaser">
+                  
+                  <div class="proj-content ">
+                      <h4>Teaser Video</h4>
+                      <p>A special project video teaser to my client at John B. Lacson Colleges Foundation - Bacolod for their intramurals</p>
+                      <a href="">View Project</a>
+                  </div>
+              </div>
+              <div class="proj-card gobebo">
+                  
+                  <div class="proj-content ">
+                      <h4>Gobebo App</h4>
+                      <p>Gobebo is 2D Adventure Story Mobile Game this is our Capstone Project where I get the title "Best Capstone and Best Programmer 2022 at STI College West Negros University"</p>
+                      <a href="">View Project</a>
+                  </div>
+              </div>
+              <div class="proj-card"></div>
+          </div>
+      </div>
+  </section>
+
+
+    <!-- certificates work -->
+    <section id="certificates">
+      <div class="inner-cert">
+          <h2>E-CERTIFICATES</h2>
+          <h1>The reward for work well done is the<br>
+          opportunity to do more.</h1>
+      </div>
+  
+      <div data-aos="fade-up" class="gallery">
+          <a href="assets/Certificates/small_photo.png" data-lightbox="mygallery" data-title="PsG (Programmers Guild) STI WNU Certificate of Membership"><img src="assets/Certificates/small_photo.png"></a>
+          <a href="assets/Certificates/angular_cert.png" data-lightbox="mygallery" data-title="Angular Framework E-Certificate"><img src="assets/Certificates/angular_cert.png"></a>
+          <a href="assets/Certificates/computeCloudService_cert_big.png" data-lightbox="mygallery" data-title="Compute Cloud Service E-Certificate"><img src="assets/Certificates/computeCloudService_cert.png"></a>
+          <a href="assets/Certificates/edge_big.png" data-lightbox="mygallery" data-title="Pioneers of Tomorrow: Certificate of Participation"><img src="assets/Certificates/edge_small.png"></a>
+          <a href="assets/Certificates/video_editing_cert.png" data-lightbox="mygallery" data-title="Strategies for Effective Video Editing E-Certificate"><img src="assets/Certificates/video_editing_cert.png"></a>
+          <a href="assets/Certificates/hcia_big_photo.png" data-lightbox="mygallery" data-title="HUAWEI: HCIA-CLOUD Service V2.2 E-Certificate"><img src="assets/Certificates/hcia_small_photo.png"></a>
+          <a href="assets/Certificates/improcess_big.png" data-lightbox="mygallery" data-title="HUAWEI: HCIA-CLOUD Service V2.2 E-Certificate"><img src="assets/Certificates/improcess.png"></a>
+          <a href="assets/Certificates/MicrosoftTeams-image.png" data-lightbox="mygallery" data-title="How to Make 2D Game Using Unity and Photoshop Resource Speaker: Mark Allan Carba (myself)"><img src="assets/Certificates/MicrosoftTeams-image.png"></a>
+          <a href="assets/Certificates/2dParticipation.png" data-lightbox="mygallery" data-title="2D Game Development Certificate of Particiapation"><img src="assets/Certificates/2dParticipation.png"></a>
+          <a href="assets/Certificates/python.PNG" data-lightbox="mygallery" data-title="Python Essential Course"><img src="assets/Certificates/python.PNG"></a>
+      </div>
+  
+  </section>
+
+      <!-- certificates work -->
+      <section id="experience">
+        <div class="inner-exp">
+            <h2>WORK EXPERIENCE</h2>
+            <h1>The Only Source of Knowledge</br>
+    is Experience</h1>
+        </div>
+        <div class="container d-sm-flex justify-content-center ">
+            <div class="exp-card ">
+                <h3>On-The-Job Training</h3>
+                <img src="assets/Others/springvalley.png" width="100" alt="">
+                <h4>Spring Valley Tech Corp</h4>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i> 500 Hours (Completed)</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Assigned Task:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Game Development ( Fullstack )<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Web Development ( Graphic Designer )</li>
+                </ul>
+                <button id="sampleExpWork">See Sample Works</button>
+            </div>
+    
+            <div class="exp-card ">
+                <h3>Software Engineer</h3>
+                <img src="assets/Others/ctclogo.png" width="70" alt="">
+                <h4>CTC BPO</h4>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i> Hired on Sept. 05, 2022 - Present</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Role: Full Stack Web Developer</li>
+                    <li><i class="fa-solid fa-circle-check"></i> PHP Developer</li>
+                </ul>
+            </div>
+        </div>
+    
+    </section>
+    
+    <div id="showsamplesEXP" class="showsamples">
+        <div style="width: 100%; height: 60px; margin-top: 100px;">
+            <i class="fa-solid fa-xmark" style="color: #fff; font-size: 2rem; position: absolute; right: 5%; cursor: pointer;" id="closeSample"></i>
+        </div>
+    
+        <div data-aos="fade-up" class="gallery">
+          <a href="assets/Others/vanlogin.png" data-lightbox="mygallery" data-title="Van Rental Login UI"><img src="assets/Others/vanlogin.png"></a>
+          <a href="assets/Others/vanregister.png" data-lightbox="mygallery" data-title="Van Rental Register UI"><img src="assets/Others/vanregister.png"></a>
+          <a href="assets/Others/vanui.png" data-lightbox="mygallery" data-title="Van Rental Main Page UI"><img src="assets/Others/vanRental_small.png"></a>
+          <a href="assets/Others/intro1.PNG" data-lightbox="mygallery" data-title="Creating Assets for Trese Game"><img src="assets/Others/intro1.PNG"></a>
+          <a href="assets/Others/treseintro.PNG" data-lightbox="mygallery" data-title="Importing Assets from Photoshop to Unity Game Engine"><img src="assets/Others/treseintro.PNG"></a>
+          <a href="assets/Others/unitygame.PNG" data-lightbox="mygallery" data-title="Trese Game Testing"><img src="assets/Others/unitygame.PNG"></a>
+        </div>  
+    </div>
+    
+    
+    <script>
+        $(document).ready(function(){
+            $("#sampleExpWork").on('click', function(){
+                $("#showsamplesEXP").fadeIn();
+            })
+            $("#closeSample").on('click', function(){
+                $("#showsamplesEXP").fadeOut();
+            })
+        })
+    </script>
+
+      <!-- contact work -->
+
+      <section id="contact">
+        <div class="inner-contact">
+            <h2>GET IN TOUCH</h2>
+            <h1>Got a question?<br>
+    I would love to hear from you!</h1>
+        </div>
+    
+        <div class="contact-form">
+            <form action="" id="myform">
+                <h5>Send me a message</h5>
+                <p>Please fill the form</p>
+                <input name="sendEmail" type="email" placeholder="Please enter your email">
+                <textarea name="message" id="" cols="30" rows="10" style="resize: none;"></textarea><br>
+                <input id="submit" value="Submit" type="text">
+    
+                <div>
+                    <h5 style="margin-bottom: 30px; font-family: 'Patua One', cursive; color: rgba(255, 255, 255, 0.784);">Follow me on</h5>
+                    <a href="https://web.facebook.com/Makier2011" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/channel/UCLkF8IyguIKBWzNzJqGH_RA/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://github.com/punkmakier" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </form>
+        </div>
+    
+    
+    </section>
+    
+    <script>
+        $("#submit").on('click', function(){
+    
+            var data = $("#myform").serialize()+"&submit=submit";
+            $("#submit").val("Sending...");
+            $("#submit").css("background-color","#8cb860");
+            $.ajax({
+                type: "POST",
+                url: "inc/mailersystem.php",
+                data: data,
+                success: function(response){
+                $("#submit").val("Submit");
+                $("#submit").css("background-color","#fff");
+                    if(response == "Sent"){
+                        Swal.fire(
+                        'Message has been sent!',
+                        'Thank you for sending me a message. Please wait for the response.',
+                        'success'
+                        )
+                    }
+                    else{
+                            Swal.fire(
+                            'Failed!',
+                            'Your message couldn\'\ t be send. Please try again.',
+                            'error'
+                            )
+                        }
+                }
+            })
+        })
+    </script>
+      
+      <!-- footer work -->
+      <section id="footer">
+        <p>Ⓒ Copyright 2022 | M.A.C e-Portfolio | All right reserved</p>
+    </section>
+  </body>
+</html>
