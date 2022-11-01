@@ -20,3 +20,9 @@ Click the button to find out :)</p>
 </div>
         </div>
 </section>
+
+<script>
+    $("#popHobbies").on('click', function(){
+        window.location.href="https://web.facebook.com/Makier2011/videos"
+    })
+</script>

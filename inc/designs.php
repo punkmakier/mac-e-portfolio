@@ -5,7 +5,7 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="css/fonts.css" />
 
-    <link rel="stylesheet" href="css/custom_style.css?v=1" />
+    <link rel="stylesheet" href="css/custom_style.css?v=3" />
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -17,4 +17,9 @@
     <!-- Data Table -->
     <link rel="stylesheet" href="css/dataTables.min.css"/>
     <script src="js/dataTables.js"></script>
+
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+
+
 

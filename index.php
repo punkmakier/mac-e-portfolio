@@ -22,5 +22,26 @@
     <!-- About Me -->
     <?php include('Views/aboutme.php');?>
 
+    <!-- Skills -->
+    <?php include('Views/skills.php');?>
+
+    <!-- lets work -->
+    <?php include('Views/letswork.php');?>
+
+    <!-- lets work -->
+    <?php include('Views/projects.php');?>
+
+
+    <!-- certificates work -->
+    <?php include('Views/certificates.php');?>
+
+      <!-- certificates work -->
+      <?php include('Views/experience.php');?>
+
+      <!-- contact work -->
+      <?php include('Views/contact.php');?>
+      
+      <!-- contact work -->
+      <?php include('Views/footer.php');?>
   </body>
 </html>
