@@ -784,12 +784,7 @@ form a:hover{
   .social-media a i {
     font-size: 1.3rem;
   }
-  .middle {
-    top: 98%;
-    right: 45%;
-    margin: 0;
-    position: absolute;
-  }
+
   #aboutme {
     display: block;
     height: auto;
