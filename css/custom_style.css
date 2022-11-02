@@ -132,7 +132,7 @@ header {
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  background-size: 100% 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -282,7 +282,7 @@ header {
   height: 35vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100vw 35vh;
+  background-size: 100% 35vh;
 }
 
 #hireme .inner-hireme{
@@ -828,7 +828,7 @@ form a:hover{
   #hireme{
     padding: 0 30px;
     height: 35vh;
-    background-size: 100vw 35vh;
+    background-size: 100% 35vh;
 
   }
   #project{
@@ -846,37 +846,37 @@ form a:hover{
   }
   
 .softy{
-  background-size:100vw 35vh;
+  background-size:100% 35vh;
 }
 .hilo{
   background-image: url("../assets/Others/hilogame.png");
   background-position: center;
-  background-size:100vw 40vh;
+  background-size:100% 40vh;
 }
 .ai{
   background-image: url("../assets/Others/aibg.png");
   background-position: center;
-  background-size:100vw 37vh;
+  background-size:100% 37vh;
 }
 .overcome{
   background-image: url("../assets/Others/overcomebg.png");
   background-position: center;
-  background-size:100vw 40vh;
+  background-size:100% 40vh;
 }
 .alcohol{
   background-image: url("../assets/Others/alcoholbg.png");
   background-position: center;
-  background-size:100vw 38vh;
+  background-size:100% 38vh;
 }
 .teaser{
   background-image: url("../assets/Others/teaserbg.PNG");
   background-position: center;
-  background-size:100vw 40vh;
+  background-size:100% 40vh;
 }
 .gobebo{
   background-image: url("../assets/Others/gobebobg.png");
   background-position: center;
-  background-size:100vw 40vh;
+  background-size:100% 40vh;
 }
   #certificates{
     height: auto;
