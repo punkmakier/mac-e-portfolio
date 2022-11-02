@@ -408,6 +408,11 @@ header {
   background-position: center;
   background-size:30vw 40vh;
 }
+.todo{
+  background-image: url("../assets/Others/todo.png");
+  background-position: center;
+  background-size:35vw 40vh;
+}
 .proj-content a{
   text-decoration: none;
   background-color: #A7CB83;
