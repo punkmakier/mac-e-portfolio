@@ -612,9 +612,9 @@ header {
 }
 #services{
   background-image: url("../assets/Backgrounds/certificates.jpg");
-  height: 140vh;
+  height: auto;
   width: 100%;
-  padding-bottom: 2rem;
+  padding-bottom: 6rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
