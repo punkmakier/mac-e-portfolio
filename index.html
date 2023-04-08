@@ -11,7 +11,7 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="css/fonts.css" />
 
-    <link rel="stylesheet" href="css/custom_style.css?v=3" />
+    <link rel="stylesheet" href="css/custom_style.css?v=6" />
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -27,12 +27,17 @@
     <link rel="stylesheet" href="css/lightbox.min.css">
     <script src="js/lightbox-plus-jquery.min.js"></script>
 
-
+    <link rel="icon" type="image/png" href="assets/Others/favicon.png"/>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400&family=Noto+Serif:ital,wght@1,700&family=Patua+One&family=Volkhov:ital@1&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
   <body>
     
@@ -56,11 +61,15 @@
           <a class="nav-link active" aria-current="page" href="#aboutme">About me</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+        <li class="nav-item">
           <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#project">Projects</a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link " href="#certificates">E-Certificates</a>
         </li>
@@ -99,17 +108,18 @@
 
 <header>
     <div class="main-content">
-        <img src="assets/Others/myself.png" alt="">
+        <img src="assets/Others/myself.png" alt="" class="animate__animated animate__bounceIn animate__delay-1s">
     </div>
-    <div class="main-content-text">
-        <h1>Mark Allan Carba</h1>
+    <div class="main-content-text animate__animated animate__bounceIn animate__delay-1s">
+        <h1 >Mark Allan Carba</h1>
         <p>Web Developer // Graphic Designer // Game Developer</p>
     </div>
 
     <div class="social-media">
-        <a href="https://web.facebook.com/Makier2011" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://m.me/Makier2011" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a>
-        <a href="https://www.youtube.com/channel/UCLkF8IyguIKBWzNzJqGH_RA/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100088035656518" target="_blank" title="Facebook Page"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://m.me/Makier2011" target="_blank"><i class="fa-brands fa-facebook-messenger" title="Messenger"></i></a>
+        <a href="https://wa.me/09471559441" target="_blank"><i class="fa-brands fa-whatsapp-square" title="Whatsapp"></i></a>
+        <a href="https://www.youtube.com/channel/UCLkF8IyguIKBWzNzJqGH_RA/videos" target="_blank" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     </div>
 </header>
 
@@ -117,14 +127,14 @@
     <section id="aboutme">
 
 
-      <div class="about-me-content">
+      <div class="about-me-content" data-aos="fade-right">
           <img src="assets/Others/makier.png" alt="">
       </div>
-      <div class="about-me-content">
+      <div class="about-me-content" data-aos="fade-right"   data-aos-delay="400">
               <h2>ABOUT ME</h2>
               <h1>This above all<br>to thine own self be true.</h1>
   
-              <p>Hey! My name is Mark Allan Carba, I received a Bachelor of Science in Information Technology degree from STI West Negros University, along with awards for Best Programmer 2022, Best Poster Design 2022, and Best Capstone Project 2022. I have more than two years of experience working in corporate environments using PHP and Unity for game and website development. I have the ability to handle a variety of duties, including front-end design and back-end development. A track record of successfully completing the tasks assigned to web and game developers.
+              <p>Hey! My name is Mark Allan Carba, I received a Bachelor of Science in Information Technology degree from STI West Negros University, along with awards for Best Programmer 2022, Best Poster Design 2022, and Best Capstone Project 2022. I have more than four (4) years of experience working in corporate environments using PHP and Unity for game and website development. I have the ability to handle a variety of duties, including front-end design and back-end development. A track record of successfully completing the tasks assigned to web and game developers.
   <br><br>
   Aside from being hard-working in system development, I also have hobbies.
   <br><br>
@@ -136,6 +146,74 @@
   </div>
           </div>
   </section>
+
+  <section id="services">
+    <h2>SERVICES</h2>
+    <h1>Building Digital Product<br>with Better Experience</h1>
+    <div class="row w-75 justify-content-center" style="margin: 0 auto; margin-bottom: 100px;">
+        <div class="col" data-aos="flip-right">
+            <div class="services--cards"  >
+                <img src="assets/Others/uiux.png" alt="">
+                <div class="services--title">UI/UX | Mobile/Web Designs</div>
+                <p>Refers to the process of creating visually appealing, intuitive, and engaging interfaces for websites and mobile applications. This involves considering the user's needs, preferences, and behaviors to create a design that is both functional and aesthetically pleasing</p>
+            </div>
+        </div>
+        <div class="col" data-aos="flip-right" data-aos-delay="200">
+            <div class="services--cards" >
+                <img src="assets/Others/webdev.png" alt="">
+                <div class="services--title">Custom Web Development</div>
+                <p>Custom web services refer to personalized solutions that are tailored to meet the specific needs and requirements of a business or organization. This includes web applications to e-commerce platforms, and can be designed to integrate with existing systems or to create new functionality from scratch.</p>
+            </div>
+        </div>
+        <div class="col" data-aos="flip-right" data-aos-delay="400">
+            <div class="services--cards">
+                <img src="assets/Others/ecommerce.png" alt="">
+                <div class="services--title">E-commerce/CMS Development</div>
+                <p>E-commerce website services offer a range of features to help businesses create and operate an online store. These services typically include website design templates, shopping cart functionality, payment processing, and inventory management tools.</p>
+            </div>
+        </div>
+        <div class="col"  data-aos="flip-right" data-aos-delay="600">
+            <div class="services--cards">
+                <img src="assets/Others/domain.png" alt="">
+                <div class="services--title">Free Hosting Account & Domain</div>
+                <p>Web hosting and domain website services offer the infrastructure and tools needed to create and operate a website. Web hosting services provide a server where a website can be stored and accessed by internet users.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="statistics" data-aos="zoom-out-up" data-aos-delay="600">
+        <h2 style="text-align: start;">Statistics</h2>
+
+        <div class="statflex">
+            <div class="stat">
+                <div class="titleStat">40+</div>
+                <p>Project Delivered</p>
+            </div>
+            <div class="stat">
+                <div class="titleStat">5+</div>
+                <p>Awards</p>
+            </div>
+            <div class="stat">
+                <div class="titleStat">4+</div>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat">
+                <div class="titleStat">50+</div>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat">
+                <div class="titleStat">5.0</div>
+                <p>Ratings and Reviews</p>
+            </div>
+        </div>
+    </div>
+
+    
+  </section>
+
+
+
   
   <script>
       $("#popHobbies").on('click', function(){
@@ -147,6 +225,7 @@
     <section id="skills">
 
       <div class="inner-skills">
+        <br><br><br>
           <h2>SKILLS</h2>
           <h1>
           With hard work and effort,<br>
@@ -155,51 +234,106 @@
       
           <div class="container mt-5 pt-5">
               <div class="row d-flex-sm justify-content-center">
-                  <div class="col">
+                  <div class="col" data-aos="fade-up">
                       <div class="cards-skills">
-                          <h3>Web Development</h3>
-                          <ul>
-                              <li><i class="fa-solid fa-circle-check"></i> PHP</li>
-                              <li><i class="fa-solid fa-circle-check"></i> MySQL </li>
-                              <li><i class="fa-solid fa-circle-check"></i> HTML/CSS/JavaScript </li>
-                              <li><i class="fa-solid fa-circle-check"></i> PHPMailer/QR Code Library</li>
-                              <li><i class="fa-solid fa-circle-check"></i> Bootstrap </li>
-                              <li><i class="fa-solid fa-circle-check"></i> Sweet Alert</li>
-                              <li><i class="fa-solid fa-circle-check"></i> JQuery </li>
-                              <li><i class="fa-solid fa-circle-check"></i> Ajax </li>
-                          </ul>
+                        <img src="assets/Others/html5.png" alt="">
+                          <h3>HTML</h3>
                       </div>
                   </div>
-                  <div class="col">
-                      <div class="cards-skills">
-                          <h3>Graphic Design</h3>
-                          <ul>
-                              <li><i class="fa-solid fa-circle-check"></i> Photoshop</li>
-                              <li><i class="fa-solid fa-circle-check"></i> Adobe Xd </li>
-                              <li><i class="fa-solid fa-circle-check"></i> Figma </li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col">
-                      <div class="cards-skills">
-                          <h3>Game Development</h3>
-                          <ul>
-                              <li><i class="fa-solid fa-circle-check"></i> Unity Engine</li>
-                              <li><i class="fa-solid fa-circle-check"></i> Game Planning </li>
-                              <li><i class="fa-solid fa-circle-check"></i> HTML </li>
-                              <li><i class="fa-solid fa-circle-check"></i> C# Script </li>
-                              <li><i class="fa-solid fa-circle-check"></i> Level Design</li>
-                              <li><i class="fa-solid fa-circle-check"></i> Animation </li>
-                          </ul>
-                      </div>
-                  </div>
+                  <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/css.png" alt="">
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/js.png" alt="">
+                        <h3>JS</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/github.png" alt="">
+                        <h3>Github</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/gitlab.png" alt="">
+                        <h3>Gitlab</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/smarty.png" alt="">
+                        <h3>Smarty</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/mysql.png" alt="">
+                        <h3>MysQL</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/php.png" alt="">
+                        <h3>PHP</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/figma.png" alt="">
+                        <h3>Figma</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/photoshop.png" alt="">
+                        <h3>Photoshop</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/adobexd.png" alt="">
+                        <h3>AdobeXD</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/bootsrap.png" alt="">
+                        <h3>Bootstrap</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/unity.png" alt="">
+                        <h3>Unity</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/androidstudio.png" alt="">
+                        <h3>Android Studio</h3>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up">
+                    <div class="cards-skills">
+                      <img src="assets/Others/wordpress.png" alt="">
+                        <h3>Wordpress</h3>
+                    </div>
+                </div>
               </div>
+        
           </div>
+         
       </div>
       
       
-      
+     
       </section>
+   
 
     <!-- lets work -->
     <section id="hireme">
@@ -219,66 +353,115 @@
               you learn something new.
           </h1>
       </div>
-  
-      <div class="custom-container d-flex justify-content-center">
-          <div class="outer-project-card">
-              <div class="proj-card softy">
-                  <div class="proj-content">
-                      <h4>E-commerce website </h4>
-                      <p>Simple E-commerce project using PHP, HTML, CSS, JavaScript and MySQL</p>
-                      <a href="">View Project</a>
-                  </div>
-              </div>
-              <div class="proj-card hilo">
-                  
-                  <div class="proj-content">
-                      <h4>HI-LO Game </h4>
-                      <p>An interesting game were you can deposit, cash out, view summary and Play High Low game.You just have to predict either HIGH or LOW before the number is rolled</p>
-                      <a href="">View Project</a>
-                  </div>
-              </div>
-              <div class="proj-card ai">
-                  
-                  <div class="proj-content ">
-                      <h4>AI Assistant</h4>
-                      <p>SUSANA is an artificial intelligence assistant using python with Google Cloud API</p>
-                      <a href="">View Project</a>
-                  </div>
-              </div>
-              <div class="proj-card overcome">
-                  
-                  <div class="proj-content ">
-                      <h4>2D Game Development</h4>
-                      <p>It's my first ever game project I made in 2 months entitled "Overcome". Adventure and Story telling game</p>
-                      <a href="">View Project</a>
-                  </div>
-              </div><br>
-              <div class="proj-card alcohol">
-                  
-                  <div class="proj-content ">
-                      <h4>Automatic Alcohol Dispenser</h4>
-                      <p>I made this during pandemic for disinfecting to avoid COVID Contact</p>
-                      <a href="">View Project</a>
-                  </div>
-              </div>
-              <div class="proj-card teaser">
-                  
-                  <div class="proj-content ">
-                      <h4>Teaser Video</h4>
-                      <p>A special project video teaser to my client at John B. Lacson Colleges Foundation - Bacolod for their intramurals</p>
-                      <a href="">View Project</a>
-                  </div>
-              </div>
-              <div class="proj-card gobebo">
-                  
-                  <div class="proj-content ">
-                      <h4>Gobebo App</h4>
-                      <p>Gobebo is 2D Adventure Story Mobile Game this is our Capstone Project where I get the title "Best Capstone and Best Programmer 2022 at STI College West Negros University"</p>
-                      <a href="">View Project</a>
-                  </div>
-              </div>
-              <div class="proj-card"></div>
-          </div>
+
+      <div class="container-fluid w-75 mt-5">
+        <div class="row">
+            <div class="col-sm mt-3" data-aos="fade-up">
+                <div class="project-demo">
+                    <div class="project-header">Latest Project</div>
+                    <div class="project-usedstack latestproj">
+                        <span class="stacks shopify">Shopify</span>
+                    </div>
+                    <div class="image-overlay">
+                        <span class="projtitle">E-Commerce Website</span class="projtitle">
+                    </div>
+                    <img src="assets/Others/shopify2.png" style="height: 40vh">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="row ">
+                    <div class="col mt-3" data-aos="fade-up">
+                        <div class="project-demo">
+                            <div class="project-usedstack">
+                                <span class="stacks php">PHP</span>
+                                <span class="stacks mysql">MYSQL</span>
+                            </div>
+                            <div class="image-overlay"><span class="projtitle">Inventory & POS</span></div>
+                            <img src="assets/Others/POS.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm mt-3" data-aos="fade-up">
+                        <div class="project-demo">
+                            <div class="project-usedstack">
+                                <span class="stacks php">PHP</span>
+                                <span class="stacks mysql">MYSQL</span>
+                                <span class="stacks jquery">JQuery</span>
+                            </div>
+                            <div class="image-overlay"><span class="projtitle" style="font-size: 1.2rem;">Barangay Information System</span></div>
+                            <img src="assets/Others/barangayinfo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-sm mt-3" data-aos="fade-up">
+                        <div class="project-demo">
+                            <div class="project-usedstack">
+                                <span class="stacks html">HTML</span>
+                                <span class="stacks css">CSS</span>
+                            </div>
+                            <div class="image-overlay"><span class="projtitle">Online Casino Marketing</span></div>
+                            <img src="assets/Others/casino.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm mt-3" data-aos="fade-up">
+                        <div class="project-demo">
+                            <div class="project-usedstack">
+                                <span class="stacks wordpress">Wordpress</span>
+                            </div>
+                            <div class="image-overlay"><span class="projtitle">CMS | Pickelball</span></div>
+                            <img src="assets/Others/pickleball.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm mt-3" data-aos="fade-up">
+                <div class="project-demo">
+                    <div class="project-usedstack">
+                        <span class="stacks php">PHP</span>
+                        <span class="stacks mysql">MYSQL</span>
+                        <span class="stacks jquery">JQuery</span>
+                    </div>
+                    <div class="image-overlay"><span class="projtitle">Car Rental System</span></div>
+                    <img src="assets/Others/carrental.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm mt-3" data-aos="fade-up">
+                <div class="project-demo">
+                    <div class="project-usedstack">
+                        <span class="stacks shopify">Shopify</span>
+                    </div>
+                    <div class="image-overlay"><span class="projtitle">E-Commerce Website</span></div>
+                    <img src="assets/Others/shopify1.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm mt-3" data-aos="fade-up">
+                <div class="project-demo">
+                    <div class="project-usedstack">
+                        <span class="stacks unity">Unity Engine</span>
+                        <span class="stacks csharp">C#</span>
+                    </div>
+                    <div class="image-overlay"><span class="projtitle" style="font-size: 1rem;">2D Adventure Mobile Game</span></div>
+                    <img src="assets/Others/unitygame.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm mt-3" data-aos="fade-up">
+                <div class="project-demo">
+                    <div class="project-usedstack">
+                        <span class="stacks php">PHP</span>
+                        <span class="stacks mysql">MYSQL</span>
+                        <span class="stacks jquery">JQuery</span>
+                    </div>
+                    <div class="image-overlay"><span class="projtitle">Small Business E-Commerce</span></div>
+                    <img src="assets/Others/softybg.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="projectbtn">
+             <a href="https://www.facebook.com/profile.php?id=100088035656518" target="_blank">Show More</a>
+        </div>
       </div>
   </section>
 
@@ -313,8 +496,8 @@
             <h1>The Only Source of Knowledge</br>
     is Experience</h1>
         </div>
-        <div class="container d-sm-flex justify-content-center ">
-            <div class="exp-card ">
+        <div class="container d-sm-flex justify-content-center text-center">
+            <div class="exp-card">
                 <h3>On-The-Job Training</h3>
                 <img src="assets/Others/springvalley.png" width="100" alt="">
                 <h4>Spring Valley Tech Corp</h4>
@@ -378,16 +561,21 @@
         <div class="contact-form">
             <form action="" id="myform">
                 <h5>Send me a message</h5>
-                <p>Please fill the form</p>
-                <input name="sendEmail" type="email" placeholder="Please enter your email">
-                <textarea name="message" id="" cols="30" rows="10" style="resize: none;"></textarea><br>
-                <input id="submit" value="Submit" type="text">
-    
+                <p>Please fill the form</p><br><br>
+                <div class="row m-0 p-0">
+                    <div class="col-sm"><input name="sendEmail" type="email" placeholder="Enter your email"></div>
+                    <div class="col-sm"><input name="sendName" type="text" placeholder="Your complete name"></div>
+                </div>
+                <div class="row m-0 p-0">
+                    <div class="col">
+                        <textarea name="message" id="" cols="30" rows="10" style="resize: none;"></textarea><br>
+                        <input id="submit" value="Submit" type="button">
+                    </div>
+                </div>
                 <div>
                     <h5 style="margin-bottom: 30px; font-family: 'Patua One', cursive; color: rgba(255, 255, 255, 0.784);">Follow me on</h5>
-                    <a href="https://web.facebook.com/Makier2011" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100088035656518" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.youtube.com/channel/UCLkF8IyguIKBWzNzJqGH_RA/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="https://github.com/punkmakier" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>
             </form>
         </div>
@@ -397,7 +585,7 @@
     
     <script>
         $("#submit").on('click', function(){
-    
+
             var data = $("#myform").serialize()+"&submit=submit";
             $("#submit").val("Sending...");
             $("#submit").css("background-color","#8cb860");
@@ -406,6 +594,7 @@
                 url: "inc/mailersystem.php",
                 data: data,
                 success: function(response){
+    
                 $("#submit").val("Submit");
                 $("#submit").css("background-color","#fff");
                     if(response == "Sent"){
@@ -431,5 +620,19 @@
       <section id="footer">
         <p>Ⓒ Copyright 2022 | M.A.C e-Portfolio | All right reserved</p>
     </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        
+        if(screenSize.width <= 1920){
+            $(".imglatest").css("height","30vh")
+        }
+
+
+    </script>
+
   </body>
 </html>

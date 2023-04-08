@@ -205,7 +205,7 @@ header {
 /* SKILLS */
 #skills {
   background-image: url("../assets/Backgrounds/skillsbg.jpg");
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   padding-bottom: 2rem;
   background-position: center;
@@ -238,22 +238,22 @@ header {
   
 }
 .cards-skills{
-  width: 350px;
-  height: 400px;
+  width: 170px;
+  height: 160px;
   display: inline-block;
   position: relative;
   background-color: #83a5603c;
   padding: 30px 0;
   margin: 15px;
   border-radius: 5px;
-  box-shadow: 10px 10px 5px #242b1d94;
+  box-shadow: 0px 15px 15px #242b1d94;
 }
 
 .cards-skills h3{
   font-size: 1.2rem;
   margin-bottom: 20px;
   color: #A7CB83;
-  text-shadow: 0 0 8px #000;
+  text-shadow: 0 0 2px #000;
 }
 .cards-skills ul{
   list-style: none;
@@ -264,8 +264,12 @@ header {
 .cards-skills ul li{
   text-align: start;
   margin-bottom: 12px;
-  text-shadow: 0 0 5px #000;
+  text-shadow: 0 0 2px #000;
   color: #fff;
+}
+.cards-skills img{
+  width: 70px;
+  margin-bottom: 10px;
 }
 
 .cards-skills ul li i{
@@ -301,6 +305,24 @@ header {
   box-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
   font-family: 'Patua One', cursive;
 }
+#hireme .inner-hireme a:hover{
+  padding: 10px 60px;
+}
+.projectbtn::before{
+  content: "with 5.0 FB Page Ratings and Good Reviews";
+  position: absolute;
+  text-align: center;
+  margin-top: -30px;
+  margin-left: 130px;;
+  color: #fff;
+  background-color: #ff3e3e;
+  padding: 0 10px;
+  font-size: 0.8rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.501);
+}
 .custom-container{
   display: grid;
   align-items: center;
@@ -311,7 +333,7 @@ header {
   background-image: url("../assets/Backgrounds/skillsbg.jpg");
   height: auto;
   width: 100%;
-  padding-bottom: 2rem;
+  padding-bottom: 7rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -484,7 +506,7 @@ header {
   background-image: url("../assets/Backgrounds/skillsbg.jpg");
   height: auto;
   width: 100%;
-  padding-bottom: 2rem;
+  padding-bottom: 6rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -588,7 +610,92 @@ header {
 #sampleExpWork:hover{
   background-color: #8cb860;
 }
+#services{
+  background-image: url("../assets/Backgrounds/certificates.jpg");
+  height: 140vh;
+  width: 100%;
+  padding-bottom: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+}
+#services h1 {
+  font-weight: 900;
+  background: #a7cb83;
+  background: linear-gradient(to right, #a7cb83 40%, #cd8a67 55%, #f59671 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 80px #000;
+  font-size: 2.1rem;
+  font-family: "Patua One", cursive;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#services h2 {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.345);
+  font-family: "Volkhov", serif;
+  text-align: center;
+}
+#services .services--cards{
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  transition: .3s ease-out;
+  color: #fff;
 
+}
+#services .services--cards img{
+  width: 60px;
+  margin-bottom: 20px;
+}
+#services .services--cards .services--title{
+  margin-bottom: 20px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+}
+#services .services--cards:hover{
+background-color: #1f3216;
+border-bottom: 5px solid #ff876d;
+}
+#services p{
+  font-size: 1.1rem;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+#services .statistics{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#services .statistics .statflex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+#services .statistics .titleStat{
+  font-weight: 900;
+  background: #a7cb83;
+  background: linear-gradient(to right, #a7cb83 2%, #cd8a67 35%, #f59671 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 80px #000;
+  font-size: 3.1rem;
+  font-family: "Patua One", cursive;
+}
+#services .statistics p{
+  font-weight: 600;
+  letter-spacing: 2px;
+}
 
 
 
@@ -635,24 +742,21 @@ form p{
   color: #fff;
 
 }
-.contact-socialmedia a{
 
-}
-input[type="email"]{
+input[type="email"],input[type="text"]{
   width: 100%;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 20px;
-  margin-top: 30px;
   outline: none;
   border: none;
 
 }
-input[type="email"]:focus, textarea:focus{
+input[type="email"]:focus, textarea:focus,input[type="text"]:focus{
   box-shadow: 0 0 5px #9cdb59;
 
 }
-input[type="text"]{
+input[type="button"]{
   width: 100%;
   padding: 10px;
   border-radius: 5px;
@@ -664,12 +768,9 @@ input[type="text"]{
   cursor: pointer;
   transition: 0.3s ease-in-out;
   font-family: "League Spartan", sans-serif;
-
-
-  
-
 }
-input[type="text"]:hover{
+
+input[type="button"]:hover{
   background-color: #8cb860;
   box-shadow: 0 0 5px #8cb860;
 
@@ -734,7 +835,117 @@ form a:hover{
   align-items: center;
   color: #fff;
 }
+.project-demo{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
 
+}
+.project-demo .image-overlay{
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: .3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-demo .image-overlay .projtitle{
+  color: #9cdb59;
+  text-shadow: 0 0 3px #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.project-demo img{
+  width: 100%;
+  height: 20vh;
+}
+
+.image-overlay:hover{
+  opacity: 0;
+}
+.projectbtn{
+  text-align: center; margin-top: 5rem;
+}
+.projectbtn a{
+  font-weight: 300;
+  background-color: #d8674d;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #fff;
+  transition: .3s;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
+  font-family: 'Patua One', cursive;
+  transition: .3s ease-out;
+}
+.projectbtn a:hover{
+  color: #fff;
+  background-color: #eb745a;
+  padding: 10px 60px;
+
+
+}
+.project-demo .project-header{
+  position: absolute;
+  margin: 20px;
+  background-color: #9cdb59;
+  border-radius: 15px;
+  padding: 5px 15px;
+  z-index: 10;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.project-usedstack{
+  width: 100%;
+  position: absolute;
+  margin: 10px 2px;
+  border-radius: 15px;
+  padding: 5px 15px;
+  z-index: 10;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.latestproj{
+  top: 15%;
+}
+.project-usedstack .stacks{
+  border-radius: 20px;
+  background-color: rgb(34, 37, 40);
+  color: #fff;
+  padding: 8px;
+  font-size: 10px;
+}
+.project-usedstack .php{
+  background-color: rgb(19, 79, 176);
+}
+.project-usedstack .mysql{
+  background-color: rgb(176, 77, 19);
+}
+.project-usedstack .jquery{
+  background-color: rgb(16, 20, 85);
+}
+.project-usedstack .shopify{
+  background-color: rgb(34, 185, 66);
+}
+.project-usedstack .wordpress{
+  background-color: rgb(34, 74, 139);
+}
+.project-usedstack .unity{
+  background-color: rgb(44, 46, 49);
+}
+.project-usedstack .csharp{
+  background-color: rgb(128, 25, 44);
+}
+.project-usedstack .html{
+  background-color: rgb(220, 124, 7);
+}
+.project-usedstack .css{
+  background-color: rgb(40, 111, 244);
+}
 @media all and (min-width: 100px) and (max-width: 992px) {
   form{
     width: 100%;
@@ -789,7 +1000,7 @@ form a:hover{
     display: block;
     height: auto;
     background-size: cover;
-    padding-bottom: 30px;
+    padding-bottom: 6rem;
   }
   #aboutme img {
     width: 18rem;
@@ -812,10 +1023,10 @@ form a:hover{
     width: 300px;
   }
   #skills{
-    display: block;
     height: auto;
-    background-size: cover;
-    padding-bottom: 30px;
+    background-attachment: fixed;
+    padding: 0 10px;
+    padding-bottom: 150px;
   }
   #skills .inner-skills h1{
     padding: 0 1.3rem;
@@ -829,8 +1040,23 @@ form a:hover{
   #project{
     height: auto;
     background-attachment: fixed;
-    padding: 0 10px;
+    padding: 6rem 10px;
   }
+  #services{
+    height: auto;
+    background-attachment: fixed;
+    padding: 0 10px;
+    padding-bottom: 100px;
+    padding-top: 90px;
+  }
+  #services .statistics .statflex{
+    flex-direction: column;
+    text-align: center;
+  }
+  #services .services--cards{
+    text-align: center;
+  }
+
 
   .proj-card{
     text-align: start;
@@ -839,6 +1065,7 @@ form a:hover{
   .outer-project-card{
     text-align: center;
   }
+  
   
 .softy{
   background-size:100vw 35vh;
