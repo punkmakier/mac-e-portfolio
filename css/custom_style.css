@@ -1024,9 +1024,8 @@ form a:hover{
   }
   #skills{
     height: auto;
-    background-attachment: fixed;
     padding: 0 10px;
-    padding-bottom: 150px;
+    padding-bottom: 6rem;
   }
   #skills .inner-skills h1{
     padding: 0 1.3rem;
