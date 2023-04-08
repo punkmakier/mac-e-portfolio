@@ -1039,14 +1039,12 @@ form a:hover{
   }
   #project{
     height: auto;
-    background-attachment: fixed;
     padding: 6rem 10px;
   }
   #services{
     height: auto;
-    background-attachment: fixed;
     padding: 0 10px;
-    padding-bottom: 100px;
+    padding-bottom: 6rem;
     padding-top: 90px;
   }
   #services .statistics .statflex{
@@ -1102,7 +1100,7 @@ form a:hover{
 }
   #certificates{
     height: auto;
-    background-attachment: fixed;
+    padding-bottom: 6rem;
   }
   .exp-card{
     width: 340px;
