@@ -961,6 +961,7 @@ form a:hover{
 
   .main-content img {
     max-width: 23rem;
+    overflow: hidden;
   }
 
   .navbar {
@@ -1001,6 +1002,7 @@ form a:hover{
     height: auto;
     background-size: cover;
     padding-bottom: 6rem;
+    overflow: hidden;
   }
   #aboutme img {
     width: 18rem;
@@ -1026,6 +1028,7 @@ form a:hover{
     height: auto;
     padding: 0 10px;
     padding-bottom: 6rem;
+    overflow: hidden;
   }
   #skills .inner-skills h1{
     padding: 0 1.3rem;
@@ -1039,12 +1042,14 @@ form a:hover{
   #project{
     height: auto;
     padding: 6rem 10px;
+    overflow: hidden;
   }
   #services{
     height: auto;
     padding: 0 10px;
     padding-bottom: 6rem;
     padding-top: 90px;
+    overflow: hidden;
   }
   #services .statistics .statflex{
     flex-direction: column;
@@ -1100,6 +1105,7 @@ form a:hover{
   #certificates{
     height: auto;
     padding-bottom: 6rem;
+    overflow: hidden;
   }
   .exp-card{
     width: 340px;
@@ -1107,5 +1113,6 @@ form a:hover{
   #experience{
     height: auto;
     padding-bottom: 6rem;
+    overflow: hidden;
   }
 }
