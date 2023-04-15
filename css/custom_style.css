@@ -960,8 +960,7 @@ form a:hover{
   }
 
   .main-content img {
-    min-width: 20vw;
-    overflow: hidden;
+    width: 22vw;
   }
 
   .navbar {
