@@ -960,7 +960,7 @@ form a:hover{
   }
 
   .main-content img {
-    max-width: 23vw;
+    min-width: 20vw;
     overflow: hidden;
   }
 
